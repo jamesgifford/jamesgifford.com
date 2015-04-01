@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'fira_sanslight';
+  src: url('/assets/fonts/FiraSans-Light-webfont.eot');
+  src: url('/assets/fonts/FiraSans-Light-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/FiraSans-Light-webfont.woff2') format('woff2'), url('/assets/fonts/FiraSans-Light-webfont.woff') format('woff'), url('/assets/fonts/FiraSans-Light-webfont.ttf') format('truetype'), url('/assets/fonts/FiraSans-Light-webfont.svg#fira_sanslight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fira_sansregular';
+  src: url('/assets/fonts/FiraSans-Regular-webfont.eot');
+  src: url('/assets/fonts/FiraSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/FiraSans-Regular-webfont.woff2') format('woff2'), url('/assets/fonts/FiraSans-Regular-webfont.woff') format('woff'), url('/assets/fonts/FiraSans-Regular-webfont.ttf') format('truetype'), url('/assets/fonts/FiraSans-Regular-webfont.svg#fira_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fira_sansbold';
+  src: url('/assets/fonts/FiraSans-Bold-webfont.eot');
+  src: url('/assets/fonts/FiraSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/FiraSans-Bold-webfont.woff2') format('woff2'), url('/assets/fonts/FiraSans-Bold-webfont.woff') format('woff'), url('/assets/fonts/FiraSans-Bold-webfont.ttf') format('truetype'), url('/assets/fonts/FiraSans-Bold-webfont.svg#fira_sansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: fira_sanslight;
+}
+h1, h2, h3, h4 {
+  font-family: fira_sansbold;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 270%;
+}
+p {
+  font-family: fira_sanslight;
+}
+input, textarea {
+  background: none;
+  border: 1px solid #555;
+  font-family: fira_sanslight;
+  padding: 10px;
+}
+header {
+  background: url('/assets/img/header_bg.jpg') no-repeat center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  font-family: fira_sansregular, sans-serif;
+  padding: 10em 0 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+header #logo {
+  background: url('/assets/img/jamesgifford_logo.png') no-repeat center center;
+  background-size: contain;
+  height: 12em;
+  margin: 0 auto 2em;
+  width: 12em;
+}
+header h1 {
+  font-size: 6em;
+  margin: 0 auto;
+  margin: 5px 0 1px;
+  text-align: center;
+}
+header p {
+  font-size: 3em;
+  margin-bottom: 3em;
+  text-transform: lowercase;
+}
+header a:last-child {
+  color: #fff;
+  cursor: pointer;
+  font-size: 3em;
+  padding-bottom: 0.5em;
+  text-decoration: none;
+}
+section#contact {
+  padding: 2em 0 5em;
+  text-align: center;
+}
+section#contact form {
+  margin: 2em auto 0;
+  width: 960px;
+}
+section#contact form label {
+  display: none;
+}
+section#contact form input[type=text], section#contact form input[type=email], section#contact form input[type=submit], section#contact form textarea {
+  margin: 10px 0;
+  width: 100%;
+}
+footer {
+  background: #333;
+  color: #fff;
+  padding: 2em 0 4em;
+  text-align: center;
+}
+footer p:first-child {
+  font-size: 120%;
+  margin-bottom: 0.75em;
+}
+footer p:last-child {
+  font-size: 90%;
+}
