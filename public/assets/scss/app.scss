@@ -115,7 +115,7 @@ section#contact {
 
 section#contact form {
 	margin: 2em auto 0;
-	width: 960px;
+	width: 50em;
 }
 
 section#contact form label {
@@ -139,7 +139,7 @@ section#contact form input[type=email] {
 footer {
 	background: #333;
 	color: #fff;
-	padding: 2em 0 4em;
+	padding: 2em 0 2em;
 	text-align: center;
 }
 
@@ -150,4 +150,37 @@ footer p:first-child {
 
 footer p:last-child {
 	font-size: 90%;
+}
+
+
+@media (max-width: 860px) {
+
+	section#contact form {
+		width: 40em;
+	}
+
+}
+
+@media (max-width: 640px) {
+
+	section#contact form {
+		width: 30em;
+	}
+
+}
+
+@media (max-width: 540px) {
+
+	section#contact form {
+		width: 25em;
+	}
+
+}
+
+@media (max-width: 480px) {
+
+	section#contact form {
+		width: 20em;
+	}
+
 }
