@@ -11,11 +11,6 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
-Route::get('home', 'HomeController@index');
-Route::post('contact', 'HomeController@contact');
-
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+Route::get('/', function () {
+    return view('welcome');
+});
