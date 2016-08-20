@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::post('send_email', 'PagesController@send_mail');
+Route::get('/', 'PagesController@index')->name('home');
